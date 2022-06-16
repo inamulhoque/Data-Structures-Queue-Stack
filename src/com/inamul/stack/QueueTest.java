@@ -7,5 +7,11 @@ public class QueueTest {
         queue.addQ(30);
         queue.addQ(70);
         queue.display();
+        queue.Dequeue();
+        queue.display();
+        queue.Dequeue();
+        queue.display();
+        queue.Dequeue();
+        queue.display();
     }
 }
